@@ -1,0 +1,70 @@
+/******************************************************* // Theme Name 404 page // *****************************************************/
+
+/*
+
+	this is an example of a 404 page, feel free to clear this CSS
+	and create your own
+	
+*/
+
+/* Custom 404 */
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
+
+html, body, #wrap, #placeholder
+	{
+	background: none;
+	}
+
+#tools, #footer, #navigation 
+	{
+	display: none;
+	}
+
+#site_strapline
+	{
+	float: right;
+	font-size: 1em;
+	font-weight: bold;
+	color: #000;
+	position: relative;
+	top: -33px;
+	}
+
+#placeholder
+	{
+	position: relative;
+	top: 60px;
+	border: 5px solid #e1e1e1;
+	clear: left;
+	padding: 15px 30px;
+	margin: 0 auto;
+	background-color: #F0F0F0;
+	width: 500px;
+	line-height: 15pt;
+	height: auto;
+	}
+
+html, body, #wrap
+	{
+	height: auto;
+	}
+
+#header
+	{
+	margin-top: 15px;
+	padding-top: 0px;
+	}
+
+#content
+	{
+	margin-bottom: 20px;
+	}
+
+fieldset
+	{
+	border: none;
+	padding: 0;
+	}
+	
+/********************************************************** // End // ********************************************************/
