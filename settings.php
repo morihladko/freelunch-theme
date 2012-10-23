@@ -6,19 +6,19 @@
 //*****************************************************************//
 
 // what is the name of your theme?
-$theme_name = "Template";
+$theme_name = "Freelunch Template";
 
 // Who creted the theme?
-$theme_creator = "toggle";
+$theme_creator = "Peter Morihladko";
 
 // What website would your like your theme to link to?
-$theme_link = "http://www.toggle.uk.com";
+$theme_link = "http://freelunch.com";
 
 // Would you like your theme to have nested navigation? (yes or no).
 $nested_nav = "no";
 
 // Would you like to load the Jquery javascript library? (yes or no) - (default: yes).
-$jquery = "no";
+$jquery = "yes";
 
 // Would you like the content to appear first in the HTML? (yes or no) - (default: no).
 // if set to yes the content will be loaded then the blocks afterwards.
