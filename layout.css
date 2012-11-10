@@ -4,7 +4,7 @@
 	begin your CSS here, remember you can add a new css 
 	file for each module you have installed in Pixie 
 	(a moudle with the url /links/ will autmatically 
-	try and load a links.css file).	
+	try and load a links.css file). 
 	
 	the styles found in this file are examples to get you
 	started with your own theme. 
@@ -61,10 +61,11 @@ html, body, #wrap {
 }
 	
 #content {
-	width: 650px;
-	float: left;
+	width: 630px;
+	float: right;
 
 	padding-bottom: 24px;
+	padding-bottom: 20px;
 }
 
 /* Image replacement on the logo */
@@ -84,11 +85,11 @@ html, body, #wrap {
 	position: absolute;
 	z-index: 3;
 	left: 75px;
-	top: 161px;
+	top: 33px;
 }
 
 #header {
-	height: 400px;
+	height: 211px;
 	position: relative;
 }
 
@@ -99,7 +100,7 @@ html, body, #wrap {
 #extradiv_a {
 	display: block !important;
 	position: absolute;
-	top: 217px;
+	top: 89px;
 
 	z-index: 2;
 
@@ -178,5 +179,51 @@ html, body, #wrap {
 
 #pixie_body {
 	margin-top: 67px;
+}
+
+.section ul.post_links {
+	list-style: none;
+	padding: 0;
+	font-size: 0.85em;
+
+	opacity: 0.7;
+
+	margin: -1.2em 0 1em;
+}
+
+.section ul.post_links > li {
+	display: inline;
+	margin-right: 1em;
+}
+
+ul.unstyled, ol.unstyled {
+	list-style: none outside none;
+	margin-left: 0;
+}
+
+#credits_list {
+	width: 641px;
+	margin: 0 auto;
+
+	font-size: 0.8em;
+
+	padding-top: 0.25em;
+	padding-left: 14px;
+}
+
+#credits_list a {
+	color: #646464;
+	text-decoration: none;
+}
+#credits_list a:hover {
+	text-decoration: underline;
+}
+
+#credits_list > #cred_pixie {
+	float: left;
+}
+
+#credits_list > #cred_theme {
+	float: right;
 }
 /********************************************************** // End // ********************************************************/
