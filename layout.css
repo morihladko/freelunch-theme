@@ -51,7 +51,7 @@ html, body, #wrap {
 	clear: both;
 	position: relative;
 	/* height must be equal to negative margin */
-	margin: -143px auto 0;
+	margin: 0 auto;
 	height: 143px;
 	width: 940px;
 	padding: 0 5px;
@@ -66,6 +66,7 @@ html, body, #wrap {
 
 	padding-bottom: 24px;
 	padding-bottom: 20px;
+	padding-right: 30px;
 }
 
 /* Image replacement on the logo */
@@ -85,7 +86,7 @@ html, body, #wrap {
 	position: absolute;
 	z-index: 3;
 	left: 75px;
-	top: 33px;
+	top: 57px;
 }
 
 #header {
@@ -100,7 +101,7 @@ html, body, #wrap {
 #extradiv_a {
 	display: block !important;
 	position: absolute;
-	top: 89px;
+	top: 111px;
 
 	z-index: 2;
 
@@ -130,7 +131,7 @@ html, body, #wrap {
 	width: 940px;
 	margin: 0 auto;
 
-	padding: 0 5px;
+	padding: 0 5px 100px;
 
 	background-image: url('images/bgrs/page.png');
 	background-repeat: repeat-y;
@@ -143,7 +144,7 @@ html, body, #wrap {
 /*///////////////////////////////////////////////////////*/
 
 #content_blocks {
-	width: 286px;
+	width: 280px;
 	float: left;
 }
 
