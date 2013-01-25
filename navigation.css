@@ -12,20 +12,25 @@
 
 #navigation {
 	display: block;
+	height: 5px;
 }
 
 #navigation h3 {
 	display: none;
 }
 
-#navigation	ul {
+#navigation ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	
 	font-size: 14px;
-	margin-left: 280px;
-	margin-top: -16px;
+
+	position: relative;
+	top: -16px;
+	left: 280px;
+
+	z-index: 4;
 }
 
 #navigation ul > li {
